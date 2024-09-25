@@ -1,17 +1,8 @@
-import Image from "next/image";
+
 import Link from "next/link";
 
 export default function Home() {
   return (
-    // <div className="bg-[url('/bg.jpg')] h-[100vh] bg-cover flex">
-    //   <div className="cta w-[30%] flex flex-col justify-center items-center text-white">
-    //     <p className="text-[30px] font-bold">Welcome To</p>
-    //     <p className="text-[30px] font-bold">Paradise Nursery</p>
-    //   </div>
-    //   <div className="text w-[70%] flex justify-center items-center text-white">
-    //     fsf
-    //   </div>
-    // </div>
     <div
       className="flex w-full h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/images/bg.jpg')" }}
@@ -47,8 +38,8 @@ export default function Home() {
         </p>
         <p className="text-lg mb-4">
           Our team of experts is dedicated to ensuring that each plant meets our
-          strict standards of quality and care. Whether you're a seasoned
-          gardener or just starting your green journey, we're here to support
+          strict standards of quality and care. Whether you&apos;re a seasoned
+          gardener or just starting your green journey, we&apos;re here to support
           you every step of the way. Feel free to explore our collection, ask
           questions, and let us help you find the perfect plant for your home or
           office.
